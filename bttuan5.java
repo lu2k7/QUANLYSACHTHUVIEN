@@ -3,6 +3,37 @@ import java.util.Scanner;
 public class bttuan5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //bài  thực hành tuần 5 không mảng
+        // System.out.println("=== BAT DANH BAI 5 (LAM CHAY NHAP N CUON) ===");
+        // System.out.print("Nhap so luong sach can nhap (n): ");
+        // int n = Integer.parseInt(scanner.nextLine());
+
+        // int tongSoLuong = 0;
+        // double tongGiaTri = 0;
+
+        // for (int i = 1; i <= n; i++) {
+        //     System.out.println("\n--- Nhap thong tin cho cuon sach thu " + i + " ---");
+        //     System.out.print("Nhap ma sach: ");
+        //     String masach = scanner.nextLine();
+        //     System.out.print("Nhap ten sach: ");
+        //     String tensach = scanner.nextLine();
+        //     System.out.print("Nhap so luong: ");
+        //     int soluong = Integer.parseInt(scanner.nextLine());
+        //     System.out.print("Nhap gia tien: ");
+        //     double giatien = Double.parseDouble(scanner.nextLine());
+
+        //     // Vi khong dung mang de luu lai, nen ta chi co the xu ly/tinh toan ngay tai day
+        //     tongSoLuong += soluong;
+        //     tongGiaTri += soluong * giatien;
+
+        //     System.out.println("-> Da nhap xong cuon: " + tensach);
+        // }
+
+        // System.out.println("\n=== KET QUA TONG HOP (LAM CHAY) ===");
+        // System.out.println("Tong so luong cua " + n + " cuon sach: " + tongSoLuong);
+        // System.out.println("Tong gia tri cua " + n + " cuon sach: " + tongGiaTri);
+        // System.out.println("------------------------------------------\n");
+        //bài thực hành tuần 6 có mảng
         int max = 100;
         String[] masach = new String[max];
         String[] tensach = new String[max];
