@@ -10,6 +10,7 @@ public class test {
         System.out.print("nhap luong sach muon nhap");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+    
         sach[] ds=new sach[n];
 
         for(int i=0;i<n;i++){
